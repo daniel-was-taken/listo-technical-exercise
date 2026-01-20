@@ -1,0 +1,52 @@
+[
+  {
+    "id": "stay_001",
+    "name": "Canal View Boutique",
+    "city": "Amsterdam",
+    "rating": 4.7,
+    "price_per_night": 210,
+    "badges": ["Free cancellation", "Central"],
+    "amenities": ["Wi-Fi", "Breakfast", "Air conditioning"],
+    "summary": "Boutique stay overlooking the canals, walkable to museums."
+  },
+  {
+    "id": "stay_002",
+    "name": "South Bank Studios",
+    "city": "London",
+    "rating": 4.4,
+    "price_per_night": 180,
+    "badges": ["Great for work", "Kitchenette"],
+    "amenities": ["Wi-Fi", "Kitchenette", "Gym"],
+    "summary": "Modern studios near South Bank with fast Wi-Fi and a small gym."
+  },
+  {
+    "id": "stay_003",
+    "name": "Montmartre Hideaway",
+    "city": "Paris",
+    "rating": 4.6,
+    "price_per_night": 195,
+    "badges": ["Top rated", "Romantic"],
+    "amenities": ["Wi-Fi", "Breakfast"],
+    "summary": "Quiet rooms near Montmartre with breakfast included."
+  },
+  {
+    "id": "stay_004",
+    "name": "Le Marais Loft",
+    "city": "Paris",
+    "rating": 4.2,
+    "price_per_night": 170,
+    "badges": ["Central", "Popular"],
+    "amenities": ["Wi-Fi", "Kitchenette"],
+    "summary": "Loft-style rooms in Le Marais, close to cafés and galleries."
+  },
+  {
+    "id": "stay_005",
+    "name": "Brick Lane Rooms",
+    "city": "London",
+    "rating": 4.1,
+    "price_per_night": 140,
+    "badges": ["Budget pick"],
+    "amenities": ["Wi-Fi"],
+    "summary": "Simple, clean rooms with easy transit access."
+  }
+]
