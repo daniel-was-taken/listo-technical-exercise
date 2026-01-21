@@ -1,7 +1,14 @@
-# HotelStay
+# HotelStay - A ChatGPT App
 
 ## Overview
 This project creates a custom app in ChatGPT that allows users to search for places to stay based on the city provided. The app utilizes a JSON data file containing various hotels, including details such as the cities, amenities, and price per night.
+
+## Demo
+
+
+https://github.com/user-attachments/assets/f4db38a7-1c90-49d4-8c44-582d0eefaf2f
+
+
 
 ## Project Structure
 - **web/**: Contains the frontend application built with React and TypeScript.
