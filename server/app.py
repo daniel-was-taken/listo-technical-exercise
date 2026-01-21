@@ -45,7 +45,7 @@ def build_widget_html() -> str:
 
 
 mcp = FastMCP(
-  name="Stays Explorer (Mock)",
+  name="HotelStay",
   instructions="""
 This server powers a demo ChatGPT app widget.
 Use explore_stays to browse mock stays by city, filter, and select an item for details.
@@ -57,8 +57,8 @@ All data is local mock JSON; no external calls.
 # Needs mime_type="text/html+skybridge" :contentReference[oaicite:14]{index=14}
 @mcp.resource(
   uri=WIDGET_URI,
-  name="Stays Explorer Widget",
-  description="UI bundle for the stays explorer widget.",
+  name="HotelStay Widget",
+  description="UI bundle for the HotelStay widget.",
   mime_type="text/html+skybridge",
   meta={"openai/widgetPrefersBorder": True},
 )

@@ -56,7 +56,7 @@ export function Widget() {
 
   const header = useMemo(() => {
     const city = toolOutput.city ?? state.city ?? "";
-    return city ? `Stays in ${city}` : "Stays Explorer";
+    return city ? `Stays in ${city}` : "HotelStay";
   }, [toolOutput.city, state.city]);
 
   async function applySearch() {
