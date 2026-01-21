@@ -38,6 +38,8 @@ https://github.com/user-attachments/assets/f4db38a7-1c90-49d4-8c44-582d0eefaf2f
 3. Install backend dependencies:
    ```bash
    cd server
+   python -m venv .venv
+   source .venv/bin/activate # On Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
