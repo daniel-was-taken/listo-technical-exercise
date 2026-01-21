@@ -39,17 +39,17 @@ This project creates a custom app in ChatGPT that allows users to search for pla
    ```bash
    ngrok http 8000
    ```
+- Start the frontend application:
+   ```bash
+   cd web
+   npm run build
+   ```
 - Start the backend server:
    ```bash
    cd server
    $env:MCP_ALLOWED_HOSTS="<subdomain>.ngrok-free.dev"
    $env:MCP_ALLOWED_ORIGINS="https://<subdomain>.ngrok-free.dev"
    python app.py
-   ```
-- Start the frontend application:
-   ```bash
-   cd web
-   npm run build
    ```
 - Start MCP inspector to test the app:
    ```bash
